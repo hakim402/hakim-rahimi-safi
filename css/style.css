@@ -391,6 +391,32 @@ span {
     margin: 1rem 0 3rem;
 }
 
+/* Add skills section styling */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.skill-tag {
+    padding: 0.8rem 1.6rem;
+    background: transparent;
+    border: 0.2rem solid var(--secondary);
+    border-radius: 2rem;
+    font-size: 1.4rem;
+    color: var(--text-color);
+    transition: 0.3s ease;
+}
+
+.skill-tag:hover {
+    background: var(--secondary);
+    color: var(--main-color);
+    transform: translateY(-3px);
+    box-shadow: 0 0.5rem 1rem var(--shadow-color);
+}
+
 .portfolio {
     min-height: auto;
     padding-bottom: 10rem;
@@ -522,7 +548,25 @@ span {
     cursor: pointer;
 }
 
+.contact form .btn:hover {
+    background: var(--secondary);
+    color: var(--main-color);
+}
+
 /* Contact End  */
+
+
+/* typing text animation styles */
+.typing-text {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--secondary);
+    margin-bottom: 1rem;
+}
+
+.typing-text span {
+    color: var(--white-color);
+}
 
 
 
